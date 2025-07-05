@@ -1,0 +1,332 @@
+<html>
+
+	<head>
+		<title></title>
+		<link rel="icon" type="image/x-icon" href="OIP.jfif">
+
+		<link rel="stylesheet"  type="text/css" href="cssdoc.css" />
+
+	<style>		input:focus	{background-color:#20a6e8;}
+
+			textarea:focus	{background-color:#20a6e8;}
+	</style>
+	</head>
+<body>
+	
+<div class="header1">
+		<table width=100%>	
+		<tr>	<td><img src="OIP.jfif" width=50 height=60></td>
+			<td id="td1"><center><font size=10 color="white"><b>Department of Immigration and Emigration</b></font></center></td>
+			<td><img src="R.png" width=50 height=60 align="right"></td>
+		</tr>	
+		</table>
+</div>	
+	
+<div class="header2">
+	<table  cellpadding="10">
+		<tr>	<td><div class="tab">
+    			<a name="one">HOME</a>
+				<div class="sub-tabs">
+     		 		<a href="Dashboard.html" class="sub-tab">Home</a>
+    				</div>
+  			</div></td>
+
+			<td><div class="tab">
+    			<a name="two">ABOUT US</a>
+    				<div class="sub-tabs">
+     		 		<a href="vission_and_mission.html" class="sub-tab">Our vission & mission</a><br><br>
+      				<a href="history.html" class="sub-tab">Department history</a>
+    				</div>
+  			</div></td>
+
+			<td><div class="tab">
+    			<a name="three">CITIZENSHIP</a>
+    				<div class="sub-tabs">
+      				<a href="citizenship_genaral_information.html" class="sub-tab">General information</a><br><br>
+      				<a href="citizenship_overseas_birth.html" class="sub-tab">Overseas birth registration</a>
+    				</div>
+  			</div></td>
+
+			<td><div class="tab">
+    			PASSPORTS
+    				<div class="sub-tabs">
+      				<a href="Passport_Genaral_Info.html" class="sub-tab">General information</a>
+    				</div>
+  			</div></td>
+
+			<td><div class="tab">
+    			RTI
+    				<div class="sub-tabs">
+      				<a href="RTI.html" class="sub-tab">RTI</a><br>
+    				</div>
+  			</div></td>
+
+			<td><div class="tab">
+    			CONTACT US
+    				<div class="sub-tabs">
+      				<a href="contact_us.html" class="sub-tab">Contact details</a>
+    				</div>
+  			</div></td>
+		</tr>
+	</table>
+</div>
+		<h1>Overseas Birth Registration</h1>
+		<p><strong>To whom is this applicable ?</strong></p>
+
+		<p>Children born outside Sri Lanka to Sri Lankan parents (At least one of the parents should be a Sri Lankan) needs to be registered at this Department within one year of birth for the confirmation of the child’s citizenship. A certificate for the Registration of Birth is issued to the applicant.</p>
+
+		<p><strong>What will happen if I fail to register the birth of my child within one year ?</strong></p>
+
+		<p>An extra fee will be imposed in the event of failure to register the birth of a child within a period of one year from the date of birth.</p>
+
+		<p><strong>What are the documents required to be handed over </strong><b>along </b><strong>with the completed application form ?</strong></p>
+
+		<ol>
+			<li>Birth Certificate of the child issued by the country where the birth took place. (If the original Birth Certificate is not in English, an English translation should be attached.)</li>
+			<li>Consular Birth Certificate issued by the Registrar&nbsp;General's Department of Sri Lanka.</li>
+			<li>Original Birth Certificates of parents</li>
+			<li>If the applicant (father or mother) is a Sri Lankan citizen by registration, the relevant certificate</li>
+			<li>Original Marriage Certificate of parents</li>
+			<li>Original Travel Documents and Visas held by parents to prove residence abroad at the time of the child's birth</li>
+			<li>Dual Citizenship certificates, if the parents are dual citizens.</li>
+		</ol>
+
+		<p><strong>Where can I obtain an Application Form ?</strong></p>
+
+		<ol>
+			<li>Citizenship Division Head Office of the Department of Immigration and Emigration, "Suhurupaya", Battaramulla.</li>
+			<li>Sri Lankan Mission in the country of residence.</li>
+			<li>Follow the application below. </li>
+		</ol>
+		
+		<center><form action="#" method="post">
+		<table>	<tr>	<td colspan=2><h3>Child Information:</h3></td></tr>
+		
+			<tr>	<td><label for="full_name">Full Name of Applicant:</label></td>
+				<td><input type="text" id="full_name" name="full_name" required></td></tr>
+
+			<tr>	<td><label for="postal_address">Postal Address in the country of domicile:</label></td>
+				<td><textarea id="postal_address" name="postal_address" rows="4" cols="20" required></textarea></td></tr>
+
+			<tr>	<td><label for="email">Email Address:</label></td>
+				<td><input type="email" id="email" name="email" required></td></tr>
+
+			<tr>	<td><label for="telephone_local">Telephone (Local):</label></td>
+				<td><input type="tel" id="telephone_local" name="telephone_local" required></td></tr>
+
+			<tr>	<td><label for="telephone_overseas">Telephone (Overseas):</label></td>
+				<td><input type="tel" id="telephone_overseas" name="telephone_overseas"></td></tr>
+
+				<hr>
+				
+			<tr>	<td colspan=2><h3>Child Information:</h3></td></tr>
+
+			<tr>	<td><label for="child_name">Full Name of Child:</label></td>
+				<td><input type="text" id="child_name" name="child_name" required></td></tr>
+
+			<tr>	<td><label>Sex:</label></td>
+				<td><input type="radio" id="male" name="sex" value="male" required>
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="sex" value="female" required>
+				<label for="female">Female</label></td></tr>
+
+			<tr>	<td><label>Date of Birth:</label></td>
+				<td><select id="dob_date" name="dob_date" required>
+					<option value="">Date</option>
+					<option value="01">01</option>
+					<option value="02">02</option>
+					<option value="03">03</option>
+					<option value="04">04</option>
+					<option value="05">05</option>
+					<option value="06">06</option>
+					<option value="07">07</option>
+					<option value="08">08</option>
+					<option value="09">09</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+				</select>
+				
+				<select id="dob_month" name="dob_month" required>
+					<option value="">Month</option>
+					<option value="01">January</option>
+					<option value="02">February</option>
+					<option value="03">March</option>
+					<option value="04">April</option>
+					<option value="05">May</option>
+					<option value="06">June</option>
+					<option value="07">July</option>
+					<option value="08">August</option>
+					<option value="09">September</option>
+					<option value="10">October</option>
+					<option value="11">November</option>
+					<option value="12">December</option>
+				</select>
+				<select id="dob_year" name="dob_year" required>
+					<option value="">Year</option>
+					<option value="2024">2024</option>
+					<option value="2023">2023</option>
+					<option value="2022">2022</option>
+					<option value="1930">2021</option>
+					<option value="2024">2020</option>
+					<option value="2023">2019</option>
+					<option value="2022">2018</option>
+					<option value="1930">2017</option>
+					<option value="2024">2016</option>
+					<option value="2023">2015</option>
+					<option value="2022">2014</option>
+					<option value="1930">2013</option>
+					<option value="2024">2012</option>
+					<option value="2023">2011</option>
+					<option value="2022">2010</option>
+					<option value="1930">2009</option>
+				</select></td></tr>
+
+			<tr>	<td><label for="place_of_birth">Place of Birth:</label></td>
+				<td><input type="text" id="place_of_birth" name="place_of_birth" required></td></tr>
+
+			<tr>	<td colspan=2><center><input type="submit" value="Submit"></center></td></tr>
+			</table></form></center>
+
+		<p>Citizenship Division of the Department of Immigration and Emigration will process the applications and mail the certificates to the respective Sri Lankan Mission for onward transmission to the applicant or to the applicant's Sri Lankan address.</p>
+
+		<p><strong>How can I submit the applications ?</strong></p>
+
+		<ol>
+			<li>Hand over duly completed applications together with the originals of necessary supporting documents with copies thereof to the Citizenship Branch at the Head Office of the Department of Immigration and Emigration in Colombo.</li>
+			<li>Duly completed applications can be forwarded through the Sri Lankan Mission in the country where the child's birth occurred with the required supporting documents along with copies thereof.</li>
+		</ol>
+
+		<p style="color:green;">Note:</p>
+
+		<ul style="color:green;">
+			<li>The birth should be registered within a period of one year from the date of birth of the child. In the event of failure to do so, an extra fee shall be imposed for the delay.</li>
+			<li>When submitting the applications through the overseas Sri Lankan missions, all the documents should be attested by an authorized officer from the Mission and it should bear the signature and the rubber stamp of the attesting officer.</li>
+		</ul>
+
+		<table border = 1>
+		<tbody>
+		<tr bgcolor="#20a6e8" style="color:white;">
+			<th align="left" colspan="2"><center>Citizenship Registration - Fees</center></th>
+		</tr>
+		<tr>
+			<td>Citizenship&nbsp; Registration of Children born outside Sri Lanka&nbsp;&nbsp; &nbsp;</td>
+			<td align="right">Rs. [SL]</td>
+		</tr>
+		<tr>
+			<td>For an application made within the prescribed period (within the first year of birth)&nbsp;</td>
+			<td align="right">5,750</td>
+		</tr>
+		<tr>
+			<td>For a delayed application per each year</td>
+			<td align="right">500</td>
+		</tr>
+		</tbody>
+		</table>
+
+		<p><strong>Payment Procedure</strong></p>
+
+		<p>Payments to be made at the time of tendering the application. Receipt to be kept for reference.</p>
+
+		<p><strong>How to collect certificate ?</strong></p>
+
+		<p>If the applicant makes a request from the Department of Immigration and Emigration;</p>
+
+		<ol>
+			<li>Applicant can collect the certificate from the relevant embassy.</li>
+			<li>Certificate can be sent to the Sri Lankan address provided by the applicant.</li>
+			<li>Only the parents of the applicant can obtain the certificate from the Citizenship Division of the Department of Immigration and Emigration.</li>
+		</ol> 
+
+	<div class="footer1"><br> 
+<table align="center" style="width:90%">
+	<tr>
+		<td rowspan=2 style="text-align:center;width:15%;">
+		<img class="img1" src="R.png" width="120" height="130"><br><p class="p1" style="font-family:Angsana New; color:white;">
+		"Dep. of Immigration and Emigration, "Suhurupaya", Sri Subhuthipura Road,Battaramulla."</p></td>
+		<td style="text-align:center;width:23%;"><p style="font-weight:bold; color:white;">Have A Question</p></td>
+		<td style="width:20%;"><p style="font-weight:bold; color:white; text-align:center;">Information</p></td>
+		<td style="text-align:center;width:32%;"><p style="font-weight:bold; color:white;">Visit Us</p></td>
+	</tr>
+	
+	<tr>
+		
+		<td><center><a href="#one"><p>HOME</p></a>
+		<a href="#two"><p>ABOUT US</p></a>
+		<a href="#three"><p>CITIZENSHIP</p></a>
+		<a style="color:white;text-decoration:none;" href="Passport_Genaral_Info.html"><p>PASSPORTS</p></a>
+		<a style="color:white;text-decoration:none;" href="RTI.html"><p>RTI</p></a>
+		<a style="color:white;text-decoration:none;" href="contact_us.html"><p>CONTACT US</p></a>
+		</center></td>
+					
+		
+		<td>	<table>
+				<tr>
+					<td>
+					<ul class="list1">
+					<li class="icon1"></li>
+					</ul></td>
+					<td>
+					<p style="color:white;">
+					Dep. of Immigration and Emigration, "Suhurupaya", Sri Subhuthipura Road,Battaramulla.
+					</p></td>
+				</tr>
+						
+				<tr>
+					<td>
+					<ul class="list1">
+					<li class="icon2"></li>
+					</ul></td>
+					<td>
+					<p style="color:white;">Telephone:1962/+94 112 101 500<br>
+					Fax:+94 011 2885 358</p>
+				</tr>
+						
+				<tr>
+					<td>
+					<ul class="list1">
+					<li class="icon3"></li>
+					</ul></td>
+					<td>
+					<p style="color:white;">controller@Immigration.gov.lk</p>
+				</tr>
+			</table>
+		</td>
+
+		<td>
+			<div class="gmap">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.1131308234952!2d79.9220707648389!3d6.901958164654896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2590ae37765f1%3A0x1dbb558b4ad5ebad!2sDepartment%20of%20Immigration%20%26%20Emigration!5e0!3m2!1sen!2slk!4v1706818538948!5m2!1sen!2slk" width="100%" height="50%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+			</iframe>
+			</div>
+		</td>
+	</tr>
+</table>
+</div>  
+		
+<div style="background-color:black; width:100%; height: 30px;">
+	<div class="footer2">
+	<p style="color: white;text-align:center;">Copyright © 2022, Dep. of Immigration & Emigration Sri Lanka All rights reserved.</p>
+	</div>
+</div>  
+    
+</body>
+</html>
